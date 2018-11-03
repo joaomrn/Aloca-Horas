@@ -1,0 +1,96 @@
+@font-face{
+    font-family: HammersmithOne;
+    src: local(HammersmithOne), url(../fonts/HammersmithOne-Regular.ttf);
+}
+body{
+    background-color: #f5f5f5; 
+    display: block;
+    text-transform: uppercase;
+}
+
+label{
+    font-family: HammersmithOne;
+    color: #337ab7;
+    font-size: 12pt;
+}
+.fontPerson{
+    font-family: HammersmithOne;
+    color: #fafafa;
+}
+
+.navMenu{
+    font-family: HammersmithOne;
+    color: #fafafa;
+    font-size: 6pt;
+}
+.select_per{
+    font-family: HammersmithOne;
+}
+.cabecalho{
+    position: relative;
+    left: 5%;
+    display: inline-block;
+    font-family: HammersmithOne;  
+    color: #337ab7;    
+}
+.footer {
+    margin-block-start: 5%;
+    position: relative;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+    background-color: #337ab7;
+    color: white;
+    text-align: center;
+}
+
+.imgGP{
+  width: 55%;
+}
+.nav_per{
+    
+    color: white; 
+    font-family: HammersmithOne;  
+}
+.a_person{
+    color: white;
+    font-family: HammersmithOne;
+    text-decoration: none;
+}
+.bnt_per{
+    font-family: HammersmithOne;
+}
+
+
+/*CSS CRONOMETRO*/
+
+#contenedor{
+    margin: 10px auto;
+    width: 540px;
+    height: 115px;
+}
+.reloj{
+    float: left;
+    font-size: 80px;
+    font-family: Courier,sans-serif;
+    color:#c1cad1;
+}
+
+.centraliza {
+    width: 555px;
+    margin: auto;
+}
+  .redon{
+-moz-border-radius: 8px; /* Para Firefox */
+-webkit-border-radius: 8px; /*Para Safari e Chrome */
+border-radius: 8px; /* Para Opera 10.5+*/
+background: #f7f7f7;
+padding: 20px;
+border: 1px solid #000;
+color: #000;
+  }
+/*GRID*/
+#jsGrid{
+    font-family: HammersmithOne;
+    text-transform: uppercase;
+}
